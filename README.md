@@ -6,7 +6,7 @@ CS177 Long Project
 
 | Name | CCSF username | Github username |
 | ---- | ------------- | --------------- |
-Ilmira Andronico |  | iandroni |
+Ilmira Andronico | iandroni  | iandroni |
 Christopher Black | cblack1 |  |
 Jasmine Farrell | jfarrel6 | jasmineiris |
 Evan Morrison | emorris7 | evmo |
@@ -19,22 +19,25 @@ David Wayman | dwayman | r3dcrosse |
 
 ### Roles
 
-- Coding:
-- Documentation: 
+- Coding: Jasmine Farrell, David Wayman
+- Documentation: Ilmira Andronico, Evan Morrison
+- QA testing: Ilmira Andronico
+
+## Overview
+
+**Let’s Play! - Iro** is browser-based, interactive, educational game in which the player sorts colors and counts yellow color balls. Players advance through levels by selecting the correct combination of color and shape within a specified time limit. 
 
 ## Requirements
 
-Users of “Let’s play! -Iro” software must have access to internet. This software must be developed for kids between ages of 5 and 11. Must consist of different choices of colors.
-
-This game will contain different stages of complexity. User will have to get certain amount of  correct answers to be able to get into next level. User also will have a chance to register their name to keep score on the scoreboard. 
-
-Software must consist ? screen modes. User will start from home screen , then clicking on “Enter” button they will be transfer to next screen - game mode. After timer runs out player will be moved to result screen  from where  she/he can exit or continue to play. 
-
+- Coded in Javascript, HTML, and CSS.
+- Game is platform-independent and can be played in any modern web browser.
+- Splash/intro screen, which leads to the first (simple) level of the game, which leads to subsequent (more complex) levels.
+- Each level is worth a certain number of points. Advanced levels are worth more points than earlier levels.
+- An overall point total is kept for each session.
+- Players can register their name to include their total score on a ranked scoreboard.
+- After completing each level, players have an option of continuing to the next level, or exiting.
+- Players have posibility to evaluate this game and provide their comments using the form provided.
 ## Functional Specification
-
-### Overview
-
-“Let’s play! -Iro” is a software designed for any platform that have access to internet.  This is K-5 (or K & Over) online , interactive, educational game to learn how to sort colors and objects. This game will have a timer and allow  to keep score. This game will provide randomly selected color for user to interact with. And will become more challenging with each level, adding more shapes and colors to increase the complexity of the game and keep players engaged. 
 
 ### Possible Scenario
 
@@ -82,4 +85,3 @@ Score will increase by 1 after correct result . When player gets 5 correct answe
 
 The design should be very simple and responsive with mobile being the default to start. While K-5 is intended target, it can be marketed as K & Over, which is actually easier and leaves open the possibility of other ancillary benefits.  Being simple the game should also be able to be played in guest mode with some limited functionality so it just works and requires no language skills, account or adult supervision to begin. Without having to do anything, the game should automatically keep track of scores when the same computer revisits the site insuring a more customized, engaging, and intelligent experience regardless. It will work both ways in guest and user mode invisibly and seamlessly for K & Over. Graphical Icons can be used instead of words for easier and simpler navigation and messaging in particular younger audience and different language markets. Instructions can also be shown in either graphical form or an animated video example sample.
 
-Wire frames will be coming soon!
