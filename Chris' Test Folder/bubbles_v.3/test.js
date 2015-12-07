@@ -13,7 +13,13 @@ var started = false;
 var clock = null;
 var opacity = 1.0;
 var audio = new Audio('The_Jackson_5.mp3');
-audio.play();
+// audio.play();
+viewer.width = 1000;
+viewer.height = 600;
+//viewer.style.backgroundImage  = "url('background.html')";
+//viewer.style.backgroundSize = "contain";
+
+
 
 function hexToRGBA(hexval, opacity)
 {
@@ -222,10 +228,7 @@ for(j = 0; j < ballCount; j++)
 }
 console.log("ballCount: "+ballCount); // GET RID OF THIS TO REMOVE BALL COUNT IN CONSOLE
 
-viewer.width = 800;
-viewer.height = 600;
-//viewer.style.backgroundImage  = "url('background.html')";
-//viewer.style.backgroundSize = "contain";
+
 viewer.addEventListener("mousedown", mouseDown, false);
 var body = document.getElementsByTagName("BODY")[0];
 body.addEventListener("keyup", keyUp, false);
