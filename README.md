@@ -79,6 +79,9 @@ The screen will  include 10 different colors on color list for user to choose an
 After timer runs out player will be moved to result screen where she/he can enter hers/his result in field “Enter number of objects in your color”. By clicking “Check” button results will be compared and message “You are correct! Good job!” or “Sorry, try again!” will appear. Button “Play again” can take a player to a game mode screen or “Exit” button will close this game. On the bottom of that screen user can see a list of the players and their scores.
 Score will increase by 1 after correct result . When player gets 5 correct answers she/he will be moved to a higher level.
 
-### User Experience
+### User Documentation 
 
-The design should be very simple and responsive with mobile en the possibility of other ancillary benefits.  Being simple the game should also be able to be played in guest mode with some limited functionality so it just works and requires no language skills, account or adult supervision to begin. Without having to do anything, the game should automatically keep track of scores when the same computer revisits the site insuring a more customized, engaging, and intelligent experience regardless. It will work both ways in guest and user mode invisibly and seamlessly for K & Over. Graphical Icons can be used instead of words for easier and simpler navigation and messaging in particular younger audience and different language markets. Instructions can also be shown in either graphical form or an animated video example sample.
+
+### Results of user testing
+
+
