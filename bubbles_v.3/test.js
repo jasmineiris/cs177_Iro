@@ -13,11 +13,7 @@ var started = false;
 var clock = null;
 var opacity = 1.0;
 var audio = new Audio('The_Jackson_5.mp3');
-// audio.play(); ~ just until testing is done! :) 
-viewer.width = 1000;
-viewer.height = 400;
-//viewer.style.backgroundImage  = "url('background.html')";
-//viewer.style.backgroundSize = "contain";
+audio.play();
 
 function hexToRGBA(hexval, opacity)
 {
@@ -34,7 +30,7 @@ function drawImage(x, y, width, height, src)
 	var image = new Image();
 	image.onload = function()
 	{
-		ctx.drawImage( image, x, y, viewer.width, viewer.height);
+		ctx.drawImage( image, x, y, width, height);
 	}
 	image.src = src;
 }
@@ -152,7 +148,7 @@ function hitClock()
 
 function startClock()
 {
-	clock = setInterval(updateBalls, 100);
+	clock = setInterval(updateBalls, 200);
 	started = true;
 }
 
@@ -197,7 +193,6 @@ function checkStringScore(text) {
   }
 }
 
-// Thinking about breaking the scoring portion of the code into a seperate file
 function getUserInput() {
   var userRawInputText = document.getElementById('userBallCount').value;
   var text = userRawInputText.toUpperCase();
@@ -219,7 +214,7 @@ function getUserInput() {
   }
 }
 
-var ballCount = Math.floor((Math.random() * 125) + 20); // different ball count could correspond to different difficulty levels
+var ballCount = Math.floor((Math.random() * 30) + 20);
 //console.log("ballCount: " + ballCount);
 for(j = 0; j < ballCount; j++)
 {
@@ -227,7 +222,10 @@ for(j = 0; j < ballCount; j++)
 }
 console.log("ballCount: "+ballCount); // GET RID OF THIS TO REMOVE BALL COUNT IN CONSOLE
 
-
+viewer.width = 800;
+viewer.height = 600;
+//viewer.style.backgroundImage  = "url('background.html')";
+//viewer.style.backgroundSize = "contain";
 viewer.addEventListener("mousedown", mouseDown, false);
 var body = document.getElementsByTagName("BODY")[0];
 body.addEventListener("keyup", keyUp, false);
