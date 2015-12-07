@@ -34,7 +34,7 @@ function drawImage(x, y, width, height, src)
 	var image = new Image();
 	image.onload = function()
 	{
-		ctx.drawImage( image, x, y, width, height);
+		ctx.drawImage( image, x, y, viewer.width, viewer.height);
 	}
 	image.src = src;
 }
@@ -197,6 +197,7 @@ function checkStringScore(text) {
   }
 }
 
+// Thinking about breaking the scoring portion of the code into a seperate file
 function getUserInput() {
   var userRawInputText = document.getElementById('userBallCount').value;
   var text = userRawInputText.toUpperCase();
