@@ -154,7 +154,7 @@ function hitClock()
 
 function startClock()
 {
-	clock = setInterval(updateBalls, 200);
+	clock = setInterval(updateBalls, 50);
 	started = true;
 }
 
@@ -220,7 +220,7 @@ function getUserInput() {
   }
 }
 
-var ballCount = Math.floor((Math.random() * 30) + 20);
+var ballCount = Math.floor((Math.random() * 30) + 100);
 //console.log("ballCount: " + ballCount);
 for(j = 0; j < ballCount; j++)
 {
