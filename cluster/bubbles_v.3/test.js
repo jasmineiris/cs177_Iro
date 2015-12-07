@@ -1,7 +1,9 @@
 var ARRAY_OF_ANSWERS = ["ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX",
                         "SEVEN", "EIGHT", "NINE", "TEN", "ELEVEN", "TWELVE",
                         "THIRTEEN", "FOURTEEN", "FIFTEEN", "SIXTEEN", "SEVENTEEN",
-                        "EIGHTEEN", "NINETEEN", "TWENTY"];
+                        "EIGHTEEN", "NINETEEN", "TWENTY", "TWENTYONE"];
+var answerMessage = "";
+var scoreMessage = "";
 var viewer = document.getElementById("viewer");
 var ctx = viewer.getContext("2d");
 var balls = [];
@@ -10,8 +12,12 @@ var yellowBallCount = 0; //keeps track of how many yellow balls there are
 var started = false;
 var clock = null;
 var opacity = 1.0;
-var audio = new Audio('Simon_Says.mp3');
-audio.play();
+var audio = new Audio('The_Jackson_5.mp3');
+// audio.play(); ~ just until testing is done! :) 
+viewer.width = 1000;
+viewer.height = 400;
+//viewer.style.backgroundImage  = "url('background.html')";
+//viewer.style.backgroundSize = "contain";
 
 function hexToRGBA(hexval, opacity)
 {
@@ -28,7 +34,7 @@ function drawImage(x, y, width, height, src)
 	var image = new Image();
 	image.onload = function()
 	{
-		ctx.drawImage( image, x, y, width, height);
+		ctx.drawImage( image, x, y, viewer.width, viewer.height);
 	}
 	image.src = src;
 }
@@ -100,7 +106,7 @@ function updateBalls()
         }
         if(opacity > 0)
         {
-            ball[6] = ball[6] - .03;
+            ball[6] = ball[6] - .009;
         }
 	}
 	drawBalls();
@@ -146,7 +152,7 @@ function hitClock()
 
 function startClock()
 {
-	clock = setInterval(updateBalls, 200);
+	clock = setInterval(updateBalls, 100);
 	started = true;
 }
 
@@ -159,7 +165,18 @@ function stopClock()
 
 function checkIntScore(aInt) {
   // THIS WILL NEED TO PASS THE RESULT INTO FINAL PAGE........
-  (yellowBallCount == aInt) ? console.log("CORRECT!!!") : console.log("Incorrect");
+  (yellowBallCount == aInt) ? scoreMessage = "Congratulations! You're correct! There are "+aInt+" yellow circles!"
+  : scoreMessage = "Good try! There are actually "+yellowBallCount+" yellow circles.";
+
+  (yellowBallCount == aInt) ? answerMessage = "CORRECT!" : answerMessage = "Uh Oh! Try again!";
+
+  getScoreMessage();
+}
+
+function getScoreMessage() {
+  document.getElementById("myModalLabel").innerHTML = answerMessage;
+  document.getElementById("modalText").innerHTML = scoreMessage;
+  console.log("scoremessage: "+scoreMessage);
 }
 
 function checkStringScore(text) {
@@ -173,10 +190,15 @@ function checkStringScore(text) {
       // Sends correct index to checkIntScore(aInt)
       checkIntScore(j);
     }
+    // The answer isn't in the array, so give them the correct answer
+    if (j == 22) {
+      checkIntScore(-1);
+    }
   }
 }
 
-function getUserInput(){
+// Thinking about breaking the scoring portion of the code into a seperate file
+function getUserInput() {
   var userRawInputText = document.getElementById('userBallCount').value;
   var text = userRawInputText.toUpperCase();
   console.log("user input: "+text);
@@ -191,10 +213,13 @@ function getUserInput(){
     checkIntScore(inputAsInt);
   }
 
-  //In progress... Figuring out how to check when userInput is a string (e.g. "twelve")
+  // Do something if the user just hits the go button without entering anything...
+  if (userRawInputText == "") {
+    checkIntScore(-1);
+  }
 }
 
-var ballCount = Math.floor((Math.random() * 30) + 20);
+var ballCount = Math.floor((Math.random() * 125) + 20); // different ball count could correspond to different difficulty levels
 //console.log("ballCount: " + ballCount);
 for(j = 0; j < ballCount; j++)
 {
@@ -202,13 +227,11 @@ for(j = 0; j < ballCount; j++)
 }
 console.log("ballCount: "+ballCount); // GET RID OF THIS TO REMOVE BALL COUNT IN CONSOLE
 
-viewer.width = 800;
-viewer.height = 600;
-//viewer.style.backgroundImage  = "url('background.html')";
-//viewer.style.backgroundSize = "contain";
+
 viewer.addEventListener("mousedown", mouseDown, false);
 var body = document.getElementsByTagName("BODY")[0];
 body.addEventListener("keyup", keyUp, false);
 
 drawBalls();
+startClock();
 console.log("There are "+yellowBallCount+" yellow balls...");
