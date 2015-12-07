@@ -55,6 +55,10 @@ This software will compare results from a user and a program and will give  the 
 
 ### Screen by screen specification
 
+This is a test screenshot:
+
+![test](testscreen.png)
+
 “Let’s play! Iro” software will consist of home screen, 3 instructional pages, game mode and result screen
 
 #### Home screen
@@ -83,5 +87,3 @@ Score will increase by 1 after correct result . When player gets 5 correct answe
 
 
 ### Results of user testing
-
-![test](testscreen.png)
