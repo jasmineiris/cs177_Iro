@@ -1,7 +1,7 @@
 // Simple bubble program.
-var intro1 = "Count the ...";
+var intro = "Press P to play";
 
-// Our colors, to be stored in an array.
+// Our colors, to be stored in an array. 
 var red = [0, 70, 80];
 var orange = [200, 50, 70];
 var green = [80, 100, 40];
@@ -11,12 +11,12 @@ var letterColors = [red, orange, green, blue, purple];
 
 // Array of Colors
 //var letterColors = [red,orange,green,blue,purple];
-// circle and sqaure are our only options.
+// circle and sqaure are our only options. 
 var bubbleShape = "circle";
 
 
 // var myname="name";
-drawName(intro1, letterColors);
+drawName(intro, letterColors);
 //drawName(myName, letterColors);
 
 

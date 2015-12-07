@@ -231,4 +231,5 @@ var body = document.getElementsByTagName("BODY")[0];
 body.addEventListener("keyup", keyUp, false);
 
 drawBalls();
+startClock();
 console.log("There are "+yellowBallCount+" yellow balls...");
