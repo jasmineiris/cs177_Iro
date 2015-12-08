@@ -23,7 +23,7 @@ David Wayman | dwayman | r3dcrosse |
 
 ### Roles
 
-- Coding: Jasmine Farrell, David Wayman, Robert Mitchell Tatyana Polyakova
+- Coding: Jasmine Farrell, David Wayman, Robert Mitchell, Tatyana Polyakova
 - Documentation: Ilmira Andronico, Evan Morrison
 - QA testing: Ilmira Andronico
 
