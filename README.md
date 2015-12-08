@@ -25,6 +25,7 @@ David Wayman | dwayman | r3dcrosse |
 
 - Coding: Jasmine Farrell, David Wayman, Robert Mitchell
 - Documentation: Ilmira Andronico, Evan Morrison
+
 =======
 - Coding:
 
