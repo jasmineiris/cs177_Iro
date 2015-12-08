@@ -19,7 +19,7 @@ Ariel Salazar |  | itozann |
 Greg Stephens |  |  |
 David Wayman | dwayman | r3dcrosse |
 
-### Location of our game is: http://hills.ccsf.edu/~iandroni/cluster/index.html
+### Location of our game is: http://hills.ccsf.edu/~iandroni/cs177_Iro/index.html
 
 ### Roles
 
@@ -42,7 +42,7 @@ David Wayman | dwayman | r3dcrosse |
 ## Functional Specification
 
 ### Possible Scenario
-To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cluster/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. After pressing P circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below. By pushing GO user can get the correct result with options to "go back to instructions" or "play again". Player can exit the game at any stage by pushing X (closing browser).
+To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cs177_Iro/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. After pressing P circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below. By pushing GO user can get the correct result with options to "go back to instructions" or "play again". Player can exit the game at any stage by pushing X (closing browser).
 
 ### Non Goals
 "Let's play! -Iro  will not provide an option to select different color or different object. Player wil not be able to keep the score of the game. 
