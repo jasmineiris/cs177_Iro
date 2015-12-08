@@ -185,9 +185,7 @@ function checkStringScore(text) {
       console.log(ARRAY_OF_ANSWERS[j]); // LEFT FOR DEBUGGING PURPOSES
       // Sends correct index to checkIntScore(aInt)
       checkIntScore(j);
-    }
-    // The answer isn't in the array, so give them the correct answer
-    if (j == 22) {
+    } else if (j == 21) { // The answer isn't in the array, so give them the correct answer
       checkIntScore(-1);
     }
   }
@@ -200,6 +198,7 @@ function getUserInput() {
 
   var inputAsInt = parseInt(userRawInputText);
   console.log("inputAsInt: "+inputAsInt);
+  console.log("isNaN(inputAsInt):"+isNaN(inputAsInt));
   // Figure out if input is all ints or is a string for text
   if (isNaN(inputAsInt)) { //If userInput is not a number, then don't check the score as an Int
     checkStringScore(text);
