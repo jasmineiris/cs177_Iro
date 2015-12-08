@@ -183,9 +183,10 @@ function checkStringScore(text) {
       console.log("CORRECT"); // LEFT FOR DEBUGGING PURPOSES
       console.log("index in array: "+j); // LEFT FOR DEBUGGING PURPOSES
       console.log(ARRAY_OF_ANSWERS[j]); // LEFT FOR DEBUGGING PURPOSES
-      // Sends correct index to checkIntScore(aInt)
-      checkIntScore(j);
-    } else if (j == 21) { // The answer isn't in the array, so give them the correct answer
+
+      checkIntScore(j); // Sends correct index to checkIntScore(aInt)
+      j = ARRAY_OF_ANSWERS.length; // exits out of the for loop
+    } else if (j == ARRAY_OF_ANSWERS.length-1) { // The answer isn't in the array, so give them the correct answer
       checkIntScore(-1);
     }
   }
