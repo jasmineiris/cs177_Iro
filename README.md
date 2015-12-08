@@ -39,7 +39,7 @@ David Wayman | dwayman | r3dcrosse |
 - Splash/intro screen and instructional pages must be interactive to keep interest for "little" users
 - Game must have background music with on/off option.
 - After this game is completed users asked to provide a short info about themself and write some comments about this game.
-- If user like this game they could send a special form provided to let their firend to know about this game.
+- If users like this game they could send a special form provided to let their firends to know about this game.
  
 
 ## Functional Specification
