@@ -23,7 +23,6 @@ David Wayman | dwayman | r3dcrosse |
 
 ### Roles
 
-<<<<<<< HEAD
 - Coding: Jasmine Farrell, David Wayman, Robert Mitchell
 - Documentation: Ilmira Andronico, Evan Morrison
 =======
@@ -31,51 +30,40 @@ David Wayman | dwayman | r3dcrosse |
 
 Jasmine Farrell: 
 Iro Front page: Created all the images, cluster code and index.html in cluster file.
-
 Animated "Count the ... yellow circles" pages in Instruction folder: Fixed the animated page transition to 2 sec in lieu of the original 8 secs , changed RGB colors to match game colors, removed extra files, added source path to html file, updated content.
-
 Final Game page: created test.js and index.html in bubbles folder which contains the: animated circles, colors, bounce effect, fading effect, sound, and mouse click to remove bubbles.
 
 David Wayman: 
 Essential for the game to be a game. 
 Final game page: worked on test.js and index.html in bubbles folder; created score tracker, optional sound buttons, response to win or lose, replay features. 
-
 Animated "Count the ... yellow circles" pages in Instruction folder: Updated content.
 
 Robert Mitchell: 
 Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
 
 - Documentation: 
-- Ilmira Andronico (requirements, function specs) 
+- Ilmira Andronico (requirements, function specs, results of rounds of user testing) 
 - Evan Morrison (user documentation)
->>>>>>> db389a3e924e94f93df25abcaddaa86ccffd8529
 - QA testing: Ilmira Andronico
-- 
-sources code academy
-bootstarp framework for results pop up screen, text input, sound buttons (using JQuery), D3J for animation of the clusters,
 
-licence to anumated bubbles in intruction folder
+
 
 ## Overview
 
-**Let’s Play! - Iro** is browser-based, interactive, educational game in which the player sorts colors and counts yellow color balls within set amount of time.
+**Iro** is browser-based, K-5, interactive, educational game to learn how to sorts colors and counts yellow color balls for a period of time.
 
 ## Requirements
 
 - Coded in Javascript, HTML, and CSS.
 - Game is platform-independent and can be played in any modern web browser.
-- Splash/intro screen, which leads to the 3 instructional pages of the game, which leads to game mode and result pop-up screen
-- Splash/intro screen and instructional pages must be interactive to keep interest for users 
+- Splash/intro screen, which leads to the instructional pages of the game, which leads to game mode and result pop-up screen
+- Splash/intro screen and instructional pages must be interactive and colorful to keep interest for users 
 - Game must have background music with on/off option.
-- After this game is completed users asked to provide a short info about themself and write some comments about this game.
-- If users like this game they could send a special form provided to let their firends to know about this game.
- 
 
-
-## Functional Specification
+ ## Functional Specification
 
 ### Possible Scenario
-To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cluster2/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. After pressing P circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below. By pushing GO user can get the correct result with options to "go back to instructions" or "play again". Player can exit the game at any stage by pushing X (closing browser).
+To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cluster2/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. Circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below (they would be able to enter number or word for result). By pushing GO user can get the correct result with options to go "Home", "Back to instructions" or "Play again". Player can exit the game at any stage by pressing X (closing browser).
 
 ### Non Goals
 "Let's play! -Iro  will not provide an option to select different color or different object. Player wil not be able to keep the score of the game. 
@@ -88,55 +76,60 @@ This software will compare results from a user and a program and will give  the 
 
 ### Screen by screen specification
 
-“Let’s play! Iro” software will consist of home screen, 3 instructional pages, game mode and result screen
+“Let’s play! Iro” software will consist of home screen, 2 instructional pages, game mode and result screen
 
 #### Home screen
-After launching this software splash/intro screen will appear with ENTER button, which will lead  to instructional pages.
+After launching this software splash/intro screen will appear with ENTER button, which will lead  to instructional pages. This page is interactive, user will be able to play or move around the circles.
 
 #### Instructions/rules
-Users can see insructions of this game on 3 interactive pages. They will be able to interact with words written in dots by moving they kursor.  
+Users can see insructions of this game on 2 interactive pages. They will be able to interact with words written in dots by moving they kursor.  
 
 #### Game screen
-This screen will contain of different colored circles, Result Field where player can enter there count and Go button.
+This screen will contain different colored circles, result field, where player can enter there count, and Go button.
+User will have an option to pop circles (then circles will disappear) for easier count. 
 
 #### Result screen
-User will get a message about result of this game and correct count. This screen will also contain "Go back to instructions" or "Play again" button
+User will get a message about result of this game and correct count. This screen will also contain "Home", "Back to instructions" or "Play again" buttons. "Home" button will take user to very first home screen, "Back to instructions" button - to instruction, "Play again" will start over the game.  
 
 ### Technical Specification
 
-Software “Let’s play! -Iro” will be developed using Java Script, CSS and HTML programming languages. It will consist of home screen, game mode and result screen.
-Home screen should have the name of the game, colored circled objects and  “Next” button that should take player to instructional pages.
+Software “Iro” will be developed using Java Script, CSS and HTML programming languages. It will consist of home screen, instructions, game mode and result screen.
 
-The screen will  include 10 different colors on color list for user to choose and  a timer . After player has chosen color, timer will start and Screen with different colors and objects will appear. First level of the game should have min  of 2 - max  of 4 different colors, including selected by user color and min of 3 - max 6 different objects. Timer will be set at 10 sec. Each level will add 2 different colors and 2 different objects and 5 sec on the clock.
+sources code academy
+bootstarp framework for results pop up screen, text input, sound buttons (using JQuery), D3J for animation of the clusters,
 
-After timer runs out player will be moved to result screen where she/he can enter hers/his result in field “Enter number of objects in your color”. By clicking “Check” button results will be compared and message “You are correct! Good job!” or “Sorry, try again!” will appear. Button “Play again” can take a player to a game mode screen or “Exit” button will close this game. On the bottom of that screen user can see a list of the players and their scores.
-Score will increase by 1 after correct result . When player gets 5 correct answers she/he will be moved to a higher level.
+licence to anumated bubbles in intruction folder
+
 
 ### User Documentation 
 
-Splash screen
+Splash screen - you can interact with circles or enter the game by pressing ENTER button
 
 ![](screenshots/iro-enter.png)
 
-Count the...
+Instructions:
+1.Count the...
 
 ![](screenshots/count-the.png)
 
-Yellow circles...
+2.Yellow circles...
 
 ![](screenshots/yellow-circles.png)
 
-Main game
+Main game - now you need to count yellow circles before they fade out (5c), there is an option to pop up circles for better view or better count of yellow circles or just for fun. After getting count of circles, you need to enter the result into result fieled by entering the number or spelling the number with letters. Then push GO button to see result. Also there is background music which you can turn on/off by using button to the right of GO button.
 
 ![](screenshots/main-game.png)
 
-Try again
+Results: 
+1.Try again - that's what you see if you get your answer wrong
 
 ![](screenshots/try-again.png)
 
-Correct
+2.Correct - that's what you see if you get your answer right
 
 ![](screenshots/correct.png)
+
+You can exit tha game at any time by closing the browser (pressing X)
 
 ### Results of user testing
 
