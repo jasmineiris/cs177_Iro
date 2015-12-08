@@ -28,7 +28,7 @@ David Wayman | dwayman | r3dcrosse |
 - Documentation: Ilmira Andronico, Evan Morrison
 =======
 - Coding:
-- 
+
 Jasmine Farrell: 
 Iro Front page: Created all the images, cluster code and index.html in cluster file.
 
@@ -38,7 +38,7 @@ Final Game page: created test.js and index.html in bubbles folder which contains
 
 David Wayman: 
 Essential for the game to be a game. 
-Final game page: worked on test.js and index.html in bubbles folder; created score tracker, optional sound buttons, response to win or lose, replay features. All important for the game to become a game.
+Final game page: worked on test.js and index.html in bubbles folder; created score tracker, optional sound buttons, response to win or lose, replay features. 
 
 Animated "Count the ... yellow circles" pages in Instruction folder: Updated content.
 
