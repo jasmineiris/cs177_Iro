@@ -114,21 +114,29 @@ Score will increase by 1 after correct result . When player gets 5 correct answe
 
 ### User Documentation 
 
-Screen 1
+Splash screen
 
-![screen1](screenshots/screen1.png)
+![](screenshots/iro-enter.png)
 
-Screen 2
+Count the...
 
-![screen2](screenshots/screen2.png)
+![](screenshots/count-the.png)
 
-Screen 3
+Yellow circles...
 
-![screen3](screenshots/screen3.png)
+![](screenshots/yellow-circles.png)
 
-Screen 4
+Main game
 
-![screen4](screenshots/screen4.png)
+![](screenshots/main-game.png)
+
+Try again
+
+![](screenshots/try-again.png)
+
+Correct
+
+![](screenshots/correct.png)
 
 ### Results of user testing
 
