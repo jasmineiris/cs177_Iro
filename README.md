@@ -29,20 +29,20 @@ David Wayman | dwayman | r3dcrosse |
 =======
 - Coding:
 
-- Jasmine Farrell: 
+Jasmine Farrell: 
 Iro Front page: Created all the images, cluster code and index.html in cluster file.
 
 Animated "Count the ... yellow circles" pages in Instruction folder: Fixed the animated page transition to 2 sec in lieu of the original 8 secs , changed RGB colors to match game colors, removed extra files, added source path to html file, updated content.
 
 Final Game page: created test.js and index.html in bubbles folder which contains the: animated circles, colors, bounce effect, fading effect, sound, and mouse click to remove bubbles.
 
-- David Wayman: 
+David Wayman: 
 Essential for the game to be a game. 
 Final game page: worked on test.js and index.html in bubbles folder; created score tracker, optional sound buttons, response to win or lose, replay features. 
 
 Animated "Count the ... yellow circles" pages in Instruction folder: Updated content.
 
-- Robert Mitchell: 
+Robert Mitchell: 
 Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
 
 - Documentation: 
