@@ -23,7 +23,7 @@ David Wayman | dwayman | r3dcrosse |
 
 ### Roles
 
-- Coding: Jasmine Farrell, David Wayman, Robert Mitchell
+- Coding: Jasmine Farrell, David Wayman, Robert Mitchell Tatyana Polyakova
 - Documentation: Ilmira Andronico, Evan Morrison
 - QA testing: Ilmira Andronico
 
@@ -38,6 +38,9 @@ David Wayman | dwayman | r3dcrosse |
 - Splash/intro screen, which leads to the 3 instructional pages of the game, which leads to game mode and result pop-up screen
 - Splash/intro screen and instructional pages must be interactive to keep interest for "little" users
 - Game must have background music with on/off option.
+- After this game is completed users asked to provide a short info about themself and write some comments about this game.
+- If user like this game they could send a special form provided to let their firend to know about this game.
+ 
 
 ## Functional Specification
 
