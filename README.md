@@ -1,6 +1,6 @@
 # Let's Play! - Iro
 
-![](http://i.imgur.com/OzIiZ1C.gifv)
+[](http://i.imgur.com/OzIiZ1C.gifv)
 
 
 
