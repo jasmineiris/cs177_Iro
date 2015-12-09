@@ -42,6 +42,10 @@ Animated "Count the ... yellow circles" pages in Instruction folder: Updated con
 Robert Mitchell: 
 Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
 
+Tatyana Polyakova:
+Creation the form "Tell your friend about IRO" . Thsi form would be helpful to spread IRO and let a lot of other people to know about
+ this game.
+ 
 - Documentation: 
 - Ilmira Andronico (requirements, function specs, results of rounds of user testing) 
 - Evan Morrison (user documentation)
