@@ -51,8 +51,8 @@ Modified bubbles file and changed name to bubbles2. Animated "Count the ... yell
 
 <<<<<<< HEAD
 Tatyana Polyakova:
-Creation the form "Tell your friend about IRO" . Thsi form would be helpful to spread IRO and let a lot of other people to know about
- this game.
+Creation the form "Tell your friend about IRO" . This form would be helpful to let a lot of other people to know about
+ IRO game.
  
 - Documentation: 
 - Ilmira Andronico (requirements, function specs, results of rounds of user testing) 
