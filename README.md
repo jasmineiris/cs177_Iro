@@ -1,8 +1,8 @@
 # Let's Play! - Iro
+CS177 Long Project
 
 ![](screenshots/gameInPlay.gif)
 
-CS177 Long Project
 
 ## Group Members
 
