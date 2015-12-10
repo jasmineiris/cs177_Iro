@@ -40,7 +40,7 @@ Final game page: worked on test.js and index.html in bubbles folder; created sco
 Animated "Count the ... yellow circles" pages in Instruction folder: Updated content.
 
 Robert Mitchell: 
-Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
+Modified bubbles file and changed name to bubbles2. Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
 
 - Documentation: 
 - Ilmira Andronico (requirements, function specs, results of rounds of user testing) 
@@ -102,11 +102,10 @@ User will get a message about result of this game and correct count. This screen
 
 Software “Iro” will be developed using Java Script, CSS and HTML programming languages. It will consist of home screen, instructions, game mode and result screen.
 
-sources code academy
-bootstarp framework for results pop up screen, text input, sound buttons (using JQuery), D3J for animation of the clusters,
+-sources code academy for animation of bubbles in Introduction pages.
+-bootstrap framework for results pop up screen, text input, sound buttons (using JQuery), -D3J for animation of the clusters.
 
-licence to anumated bubbles in intruction folder
-
+All algorithms used are predefined, except the one that checks for spelled numbers, which was created by David Wayman.
 
 ### User Documentation 
 
