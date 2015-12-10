@@ -1,4 +1,5 @@
 # Let's Play! - Iro
+
 CS177 Long Project
 
 ![](screenshots/gameInPlay.gif)
@@ -16,13 +17,11 @@ CS177 Long Project
 | Name | CCSF username | Github username |
 | ---- | ------------- | --------------- |
 Ilmira Andronico | iandroni  | iandroni |
-Christopher Black | cblack1 |  |
+Christopher Black | cblack1 | ChrisBlack1989 |
 Jasmine Farrell | jfarrel6 | jasmineiris |
 Evan Morrison | emorris7 | evmo |
-Zack Pierce | ppierce2 | zackerypierce |
 Tatyana Polyakova | tpolyako | tatyana12 |
 Robert Mitchell | rmitchel | squeakyheatr |
-Ariel Salazar |  | itozann |
 Greg Stephens |  |  |
 David Wayman | dwayman | r3dcrosse |
 
@@ -49,25 +48,18 @@ Animated "Count the ... yellow circles" pages in Instruction folder: Updated con
 Robert Mitchell:
 Modified bubbles file and changed name to bubbles2. Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
 
-<<<<<<< HEAD
 Tatyana Polyakova:
 Creation the form "Tell your friend about IRO" . This form would be helpful to let a lot of other people to know about
  IRO game.
  
-- Documentation: 
-- Ilmira Andronico (requirements, function specs, results of rounds of user testing) 
-=======
 - Documentation:
 - Ilmira Andronico (requirements, function specs, results of rounds of user testing)
->>>>>>> 8736b90bd0d76e17f5160dc378c238eed10a51e5
 - Evan Morrison (user documentation)
-- QA testing: Ilmira Andronico
-
-
+- Robert Mitchell (technical specs)
 
 ## Overview
 
-**Iro** is browser-based, K-5, interactive, educational game to learn how to sorts colors and counts yellow color balls for a period of time.
+**Iro** is browser-based, interactive, educational game for children ages 4 to 7 to learn how to sorts colors and counts yellow color balls for a period of time.
 
 ## Requirements
 
@@ -76,20 +68,15 @@ Creation the form "Tell your friend about IRO" . This form would be helpful to l
 - Splash/intro screen, which leads to the instructional pages of the game, which leads to game mode and result pop-up screen
 - Splash/intro screen and instructional pages must be interactive and colorful to keep interest for users
 - Game must have background music with on/off option.
-<<<<<<< HEAD
-- If users like this game they could send a special form provided to let their firends to know about this game.
 
-
-=======
->>>>>>> 9402e43b325481555178dd4a4724314eb089c164
 
  ## Functional Specification
 
 ### Possible Scenario
-To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cluster2/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. Circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below (they would be able to enter number or word for result). By pushing GO user can get the correct result with options to go "Home", "Back to instructions" or "Play again". Player can exit the game at any stage by pressing X (closing browser).
+To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. Circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below (they would be able to enter number or word for result). By pushing GO user can get the correct result with options to go "Home", "Back to instructions" or "Play again". Player can exit the game at any stage by pressing X (closing browser).
 
 ### Non Goals
-"Let's play! -Iro  will not provide an option to select different color or different object. Player wil not be able to keep the score of the game.
+"Iro"  will not provide an option to select different color or different object. Player wil not be able to keep the score of the game.
 
 #### Input
 Primary input will come from user. After counting yellow balls user will have to enter the amount of circles.
@@ -99,7 +86,7 @@ This software will compare results from a user and a program and will give  the 
 
 ### Screen by screen specification
 
-“Let’s play! Iro” software will consist of home screen, 2 instructional pages, game mode and result screen
+“Iro” software will consist of home screen, 2 instructional pages, game mode and result screen
 
 #### Home screen
 After launching this software splash/intro screen will appear with ENTER button, which will lead  to instructional pages. This page is interactive, user will be able to play or move around the circles.
@@ -108,7 +95,7 @@ After launching this software splash/intro screen will appear with ENTER button,
 Users can see insructions of this game on 2 interactive pages. They will be able to interact with words written in dots by moving they kursor.  
 
 #### Game screen
-This screen will contain different colored circles, result field, where player can enter there count, and Go button.
+This screen will contain different colored circles, result field, where player can enter there count (enter the number or wright it out), and Go button.
 User will have an option to pop circles (then circles will disappear) for easier count.
 
 #### Result screen
@@ -154,3 +141,15 @@ Results:
 You can exit tha game at any time by closing the browser (pressing X)
 
 ### Results of user testing
+
+For user testing of our game we asked 3 children  to play the game and give us feedback.
+Layden, 5 year old boy:
+He does not know how to read yet, so he needed help from his parents to play. He liked colored circles and the ability to play with them (move them around and pop them). Also he liked counting them.
+Kailyn, 7 year old girl:
+She was able to play this game on her own. Liked playing it for first 15 min but then she got bored because it seem repetative, there were no other colors or shapes to count.
+Kendal, 11 year old girl:
+She thought this game was too easy to play and needed to be more complex. She would have liked more rounds, different choice of colored circles or shapes to count.
+
+We also got feedback from adult users.
+This is our first release of the game. After getting user feedback we were unable to make any changes before our release date due to lack of programming knowledge and limited time constraints. In our next release we could take in consideration all suggestions: add different shapes and ask the user to count shapes in different colors. We can let users choose colors they want to work with and add circles and fading time to higher levels. From our feedback we could also change game music with each level played.
+We realized that this version of the game could only be marketed for children ages 4 -7.
