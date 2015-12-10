@@ -19,7 +19,7 @@ Ariel Salazar |  | itozann |
 Greg Stephens |  |  |
 David Wayman | dwayman | r3dcrosse |
 
-### Location of our game is: http://hills.ccsf.edu/~iandroni/cluster2/index.html
+### Location of our game is: http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html
 
 ### Roles
 
