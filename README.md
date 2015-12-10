@@ -5,13 +5,8 @@ CS177 Long Project
 ![](screenshots/gameInPlay.gif)
 
 
-<<<<<<< HEAD
-
-
 CS177 Long Project
 
-=======
->>>>>>> 8736b90bd0d76e17f5160dc378c238eed10a51e5
 ## Group Members
 
 | Name | CCSF username | Github username |
@@ -143,13 +138,17 @@ You can exit tha game at any time by closing the browser (pressing X)
 ### Results of user testing
 
 For user testing of our game we asked 3 children  to play the game and give us feedback.
+
 Layden, 5 year old boy:
 He does not know how to read yet, so he needed help from his parents to play. He liked colored circles and the ability to play with them (move them around and pop them). Also he liked counting them.
+
 Kailyn, 7 year old girl:
 She was able to play this game on her own. Liked playing it for first 15 min but then she got bored because it seem repetative, there were no other colors or shapes to count.
+
 Kendal, 11 year old girl:
 She thought this game was too easy to play and needed to be more complex. She would have liked more rounds, different choice of colored circles or shapes to count.
 
 We also got feedback from adult users.
+
 This is our first release of the game. After getting user feedback we were unable to make any changes before our release date due to lack of programming knowledge and limited time constraints. In our next release we could take in consideration all suggestions: add different shapes and ask the user to count shapes in different colors. We can let users choose colors they want to work with and add circles and fading time to higher levels. From our feedback we could also change game music with each level played.
 We realized that this version of the game could only be marketed for children ages 4 -7.
