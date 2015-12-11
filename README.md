@@ -4,8 +4,7 @@ CS177 Long Project
 
 ![](screenshots/gameInPlay.gif)
 
-
-CS177 Long Project
+### [Link to Live Game](http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html)
 
 ## Group Members
 
@@ -20,37 +19,40 @@ Robert Mitchell | rmitchel | squeakyheatr |
 Greg Stephens |  |  |
 David Wayman | dwayman | r3dcrosse |
 
-### Location of our game is: http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html
+## Roles
 
-### Roles
+### Jasmine Farrell
 
-- Coding: Jasmine Farrell, David Wayman, Robert Mitchell,Tatyana Polyakova
-- Documentation: Ilmira Andronico, Evan Morrison
+- Iro Front page: Created all the images, cluster code and index.html in cluster file.
+- Animated "Count the ... yellow circles" pages in Instruction folder: Fixed the animated page transition to 2 sec in lieu of the original 8 secs , changed RGB colors to match game colors, removed extra files, added source path to html file, updated content.
+- Final Game page: created test.js and index.html in bubbles folder which contains the: animated circles, colors, bounce effect, fading effect, sound, and mouse click to remove bubbles.
 
-=======
-- Coding:
+### David Wayman
 
-Jasmine Farrell:
-Iro Front page: Created all the images, cluster code and index.html in cluster file.
-Animated "Count the ... yellow circles" pages in Instruction folder: Fixed the animated page transition to 2 sec in lieu of the original 8 secs , changed RGB colors to match game colors, removed extra files, added source path to html file, updated content.
-Final Game page: created test.js and index.html in bubbles folder which contains the: animated circles, colors, bounce effect, fading effect, sound, and mouse click to remove bubbles.
+- Essential for the game to be a game.
+- Final game page: worked on test.js and index.html in bubbles folder; created score tracker, optional sound buttons, response to win or lose, replay features.
+- Animated "Count the ... yellow circles" pages in Instruction folder: Updated content.
 
-David Wayman:
-Essential for the game to be a game.
-Final game page: worked on test.js and index.html in bubbles folder; created score tracker, optional sound buttons, response to win or lose, replay features.
-Animated "Count the ... yellow circles" pages in Instruction folder: Updated content.
+### Robert Mitchell
 
-Robert Mitchell:
-Modified bubbles file and changed name to bubbles2. Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
+- Modified bubbles file and changed name to bubbles2. 
+- Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. 
+- Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
+- Technical specification.
 
-Tatyana Polyakova:
-Creation the form "Tell your friend about IRO" . This form would be helpful to let a lot of other people to know about
- IRO game.
- 
-- Documentation:
-- Ilmira Andronico (requirements, function specs, results of rounds of user testing)
-- Evan Morrison (user documentation)
-- Robert Mitchell (technical specs)
+### Tatyana Polyakova
+
+- Creation the form "Tell your friend about IRO." This form would be helpful to let a lot of other people to know about IRO game. Not included in final version.
+
+### Ilmira Andronico
+
+- requirements
+- function specs
+- results of rounds of user testing
+
+### Evan Morrison
+
+(in progress)
 
 ## Overview
 
@@ -64,8 +66,7 @@ Creation the form "Tell your friend about IRO" . This form would be helpful to l
 - Splash/intro screen and instructional pages must be interactive and colorful to keep interest for users
 - Game must have background music with on/off option.
 
-
- ## Functional Specification
+## Functional Specification
 
 ### Possible Scenario
 To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. Circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below (they would be able to enter number or word for result). By pushing GO user can get the correct result with options to go "Home", "Back to instructions" or "Play again". Player can exit the game at any stage by pressing X (closing browser).
@@ -73,10 +74,10 @@ To be able to play this game user will have to go to http://hills.ccsf.edu/~iand
 ### Non Goals
 "Iro"  will not provide an option to select different color or different object. Player wil not be able to keep the score of the game.
 
-#### Input
+### Input
 Primary input will come from user. After counting yellow balls user will have to enter the amount of circles.
 
-#### Output
+### Output
 This software will compare results from a user and a program and will give  the correct answer for a player.
 
 ### Screen by screen specification
@@ -100,8 +101,8 @@ User will get a message about result of this game and correct count. This screen
 
 Software “Iro” will be developed using Java Script, CSS and HTML programming languages. It will consist of home screen, instructions, game mode and result screen.
 
--sources code academy for animation of bubbles in Introduction pages.
--bootstrap framework for results pop up screen, text input, sound buttons (using JQuery), -D3J for animation of the clusters.
+- sources code academy for animation of bubbles in Introduction pages.
+- bootstrap framework for results pop up screen, text input, sound buttons (using JQuery), -D3J for animation of the clusters.
 
 All algorithms used are predefined, except the one that checks for spelled numbers, which was created by David Wayman.
 
