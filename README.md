@@ -58,6 +58,8 @@ David Wayman | dwayman | r3dcrosse |
     - overview
     - requirements
 
+(in progress)
+
 ## Overview
 
 **Iro** is browser-based, interactive, educational game for children to learn how to distinguish colors and count yellow color balls for a period of time.
@@ -87,7 +89,7 @@ Primary input will come from user. After counting yellow balls user will have to
 ### Output
 This software will compare results from a user and a program and will give  the correct answer for a player.
 
-### Screen by screen specification
+### Screen by Screen Specification
 
 “Iro” software will consist of home screen, 2 instructional pages, game mode and result screen
 
@@ -104,7 +106,7 @@ User will have an option to pop circles (then circles will disappear) for easier
 #### Result screen
 User will get a message about result of this game and correct count. This screen will also contain "Home", "Back to instructions" or "Play again" buttons. "Home" button will take user to very first home screen, "Back to instructions" button - to instruction, "Play again" will start over the game.  
 
-### Technical Specification
+## Technical Specification
 
 Software “Iro” will be developed using Java Script, CSS and HTML programming languages. It will consist of home screen, instructions, game mode and result screen.
 
