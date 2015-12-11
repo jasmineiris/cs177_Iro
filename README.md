@@ -2,9 +2,11 @@
 
 CS177 Long Project
 
-![](screenshots/gameInPlay.gif)
-
 ### [Link to Live Game](http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html)
+
+Preview animation:
+
+![](screenshots/gameInPlay.gif)
 
 ## Group Members
 
@@ -52,19 +54,24 @@ David Wayman | dwayman | r3dcrosse |
 
 ### Evan Morrison
 
-(in progress)
+- writing and copy-editing
+    - overview
+    - requirements
 
 ## Overview
 
-**Iro** is browser-based, interactive, educational game for children ages 4 to 7 to learn how to sorts colors and counts yellow color balls for a period of time.
+**Iro** is browser-based, interactive, educational game for children to learn how to distinguish colors and count yellow color balls for a period of time.
 
 ## Requirements
 
+- Platform-independent game that can be played in any modern web browser.
 - Coded in Javascript, HTML, and CSS.
-- Game is platform-independent and can be played in any modern web browser.
-- Splash/intro screen, which leads to the instructional pages of the game, which leads to game mode and result pop-up screen
-- Splash/intro screen and instructional pages must be interactive and colorful to keep interest for users
-- Game must have background music with on/off option.
+- Colorful splash/intro screen that provides entry (via clicking) to game instructions. 
+- Colorful, dynamic game instructions, which transitions automatically after a few seconds to the game.
+- Game screen with balls of different colors and sizes moving in random directions.
+- Balls can be removed by clicking them.
+- Background music for game with on/off option.
+- Text input and button to submit answer.
 
 ## Functional Specification
 
