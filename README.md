@@ -1,5 +1,7 @@
 # Let's Play! - Iro
 
+[hey people! i'm working on this today and will send out the PDF tonight. --Evan, Saturday 12/12]
+
 CS177 Long Project
 
 ### [Link to Live Game](http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html)
@@ -71,7 +73,8 @@ Greg Stephens |||
     - requirements
     - user characteristics
     - game objectives
-    - 
+- git troubleshooting & assistance with more advanced git commands
+- markdown formatting
 
 (in progress)
 
@@ -109,8 +112,16 @@ Greg Stephens |||
 
 On the main game screen, many circular objects (balls) of different sizes and colors are floating around in random directions. The objective is to count how many **yellow** balls are shown, and submit the answer via text input. There is an effective time limit of approximately 20 seconds, at which point the balls are no longer visible.
 
-### Non Goals
-"Iro"  will not provide an option to select different color or different object. Player wil not be able to keep the score of the game.
+### Non-Goals
+
+"Might-be-nice" game options that we are not implementing at this time:
+
+- Change target color (the color that is counted).
+- Change object shapes (circles only).
+- Progression of difficulty levels.
+- Concept of "score" across games (no credit for getting 2, 3, 4 correct answers in a row).
+- Rewarding players for *speed* in choosing correct answer.
+- Saving player results across sessions.
 
 ### Input
 Primary input will come from user. After counting yellow balls user will have to enter the amount of circles.
