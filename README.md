@@ -95,8 +95,12 @@ Greg Stephens |||
 
 - See.
 - Read basic English.
-- Count to 20.
+- Count to 21.
 - Use a web browser and basic input devices (mouse and keyboard).
+
+### Game Objectives
+
+On the main game screen, many circular objects (balls) of different sizes and colors are floating around in random directions. The objective is to count how many **yellow** balls are shown, and submit the answer via text input. There is an effective time limit of approximately 20 seconds, at which point the balls are no longer visible.
 
 ### Possible Scenario
 To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. Circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below (they would be able to enter number or word for result). By pushing GO user can get the correct result with options to go "Home", "Back to instructions" or "Play again". Player can exit the game at any stage by pressing X (closing browser).
