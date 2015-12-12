@@ -72,13 +72,15 @@ Greg Stephens |||
 
 (in progress)
 
-## Overview
+## Functional Specification
 
-**Iro** is browser-based, interactive, educational game for children to learn how to distinguish colors and count yellow color balls for a period of time.
+### Overview
 
-## Requirements
+**Iro** is browser-based, interactive, educational game for children to learn how to distinguish colors and count objects within a time-limited period.
 
-- Platform-independent game that can be played in any modern web browser.
+### Requirements
+
+- Platform-independent: can be played in any modern web browser.
 - Coded in Javascript, HTML, and CSS.
 - Colorful splash/intro screen that provides entry (via clicking) to game instructions. 
 - Colorful, dynamic game instructions, which transitions automatically after a few seconds to the game.
@@ -86,8 +88,6 @@ Greg Stephens |||
 - Balls can be removed by clicking them.
 - Background music for game with on/off option.
 - Text input and button to submit answer.
-
-## Functional Specification
 
 ### Possible Scenario
 To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. Circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below (they would be able to enter number or word for result). By pushing GO user can get the correct result with options to go "Home", "Back to instructions" or "Play again". Player can exit the game at any stage by pressing X (closing browser).
