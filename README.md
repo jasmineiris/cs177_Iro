@@ -8,7 +8,9 @@ Preview animation:
 
 ![](screenshots/gameInPlay.gif)
 
-## Group Members
+## Group Members & Roles
+
+### Member List
 
 | Name | CCSF username | Github username |
 | ---- | ------------- | --------------- |
@@ -18,41 +20,51 @@ Jasmine Farrell | jfarrel6 | jasmineiris |
 Evan Morrison | emorris7 | evmo |
 Tatyana Polyakova | tpolyako | tatyana12 |
 Robert Mitchell | rmitchel | squeakyheatr |
-Greg Stephens |  |  |
 David Wayman | dwayman | r3dcrosse |
+|||
+Zack Pierce |||
+Ariel Salazar |||
+Greg Stephens |||
 
-## Roles
+### Functional Teams
 
-### Jasmine Farrell
+- **Coding**: Jasmine Farrell, David Wayman, Chris Black, Robert Mitchell, Tatyana Polyakova
+- **Specs & Documentation**: Ilmira Andronico, Evan Morrison, Robert Mitchell
+
+### Individual Credits
+
+(Each group member was responsible for writing their own list.)
+
+#### Jasmine Farrell
 
 - Iro Front page: Created all the images, cluster code and index.html in cluster file.
 - Animated "Count the ... yellow circles" pages in Instruction folder: Fixed the animated page transition to 2 sec in lieu of the original 8 secs , changed RGB colors to match game colors, removed extra files, added source path to html file, updated content.
 - Final Game page: created test.js and index.html in bubbles folder which contains the: animated circles, colors, bounce effect, fading effect, sound, and mouse click to remove bubbles.
 
-### David Wayman
+#### David Wayman
 
 - Essential for the game to be a game.
 - Final game page: worked on test.js and index.html in bubbles folder; created score tracker, optional sound buttons, response to win or lose, replay features.
 - Animated "Count the ... yellow circles" pages in Instruction folder: Updated content.
 
-### Robert Mitchell
+#### Robert Mitchell
 
 - Modified bubbles file and changed name to bubbles2. 
 - Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. 
 - Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
 - Technical specification.
 
-### Tatyana Polyakova
+#### Tatyana Polyakova
 
-- Creation the form "Tell your friend about IRO." This form would be helpful to let a lot of other people to know about IRO game. Not included in final version.
+- Creation the form "Tell your friend about IRO." This form would be helpful to let a lot of other people to know about IRO game.
 
-### Ilmira Andronico
+#### Ilmira Andronico
 
 - requirements
 - function specs
 - results of rounds of user testing
 
-### Evan Morrison
+#### Evan Morrison
 
 - writing and copy-editing
     - overview
