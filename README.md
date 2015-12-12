@@ -69,6 +69,9 @@ Greg Stephens |||
 - writing and copy-editing
     - overview
     - requirements
+    - user characteristics
+    - game objectives
+    - 
 
 (in progress)
 
@@ -80,14 +83,18 @@ Greg Stephens |||
 
 ### Requirements
 
-- Platform-independent: can be played in any modern web browser.
+- Platform-independent: can be played in any modern web browser at [this link](http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html).
 - Coded in Javascript, HTML, and CSS.
 - Colorful splash/intro screen that provides entry (via clicking) to game instructions. 
 - Colorful, dynamic game instructions, which transitions automatically after a few seconds to the game.
 - Game screen with balls of different colors and sizes moving in random directions.
 - Balls can be removed by clicking them.
-- Background music for game with on/off option.
-- Text input and button to submit answer.
+- Balls begin fading from visibility after 5 seconds, completely disappearing after approximately 20 seconds.
+- Background music (Jackson 5).
+    + Buttons to switch music on or off.
+- Text field and submit button to enter a guess.
+- Pop-up box that provides feedback on guess (correct or incorrect).
+    + Buttons offering links to play again, or return to game home or game instructions.
 
 ### User Characteristics
 
@@ -101,9 +108,6 @@ Greg Stephens |||
 ### Game Objectives
 
 On the main game screen, many circular objects (balls) of different sizes and colors are floating around in random directions. The objective is to count how many **yellow** balls are shown, and submit the answer via text input. There is an effective time limit of approximately 20 seconds, at which point the balls are no longer visible.
-
-### Possible Scenario
-To be able to play this game user will have to go to http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html.  After lunching this file, user will see intro page with ENTER button located on the buttom of that screen. By pressing ENTER button, player will move to pages with instructions  of the game, then different colored circles will apear on the screen. Circles will start fading (5 sec) and player would have to count the the yellow colored circles and enter the result in the field below (they would be able to enter number or word for result). By pushing GO user can get the correct result with options to go "Home", "Back to instructions" or "Play again". Player can exit the game at any stage by pressing X (closing browser).
 
 ### Non Goals
 "Iro"  will not provide an option to select different color or different object. Player wil not be able to keep the score of the game.
