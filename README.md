@@ -69,8 +69,9 @@ Preview animation:
 - functional spec
 - user documentation
 - misc writing & copy-editing in other sections
-- git troubleshooting & assistance with more advanced git commands
+- general git troubleshooting & assistance
 - markdown formatting
+- PDF report generation
 
 ## Functional Specification
 
