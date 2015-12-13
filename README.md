@@ -182,10 +182,11 @@ The 'Play Again' button is white text on blue background for increased contrast.
 
 ## Technical Specification
 
-Software “Iro” will be developed using Java Script, CSS and HTML programming languages. It will consist of home screen, instructions, game mode and result screen.
+**Iro** will be developed in Javascript, CSS, and HTML. It will consist of home screen, instructions, game mode and result screen.
 
-- sources code academy for animation of bubbles in Introduction pages.
-- bootstrap framework for results pop up screen, text input, sound buttons (using JQuery), -D3J for animation of the clusters.
+- Sources [Codecademy](http://codecademy.com) for animation of bubbles in Introduction pages.
+- Uses [Bootstrap](http://getbootstrap.com) framework for results pop-up screen, text input, sound buttons (using JQuery), 
+- Uses [D3.js](http://d3js.org) framework for animation of clusters.
 
 All algorithms used are predefined, except the one that checks for spelled numbers, which was created by David Wayman.
 
