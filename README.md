@@ -145,7 +145,7 @@ The word 'Enter' is a hyperlink to the first instruction page (see below).
 #### Main game screen
 The main game screen features a randomly-generated number of circles of different colors and shapes, moving around in randomly-generated directions. At the bottom of the screen is a thin bar containing (left-to-right):
 
-- A near-full-width text-input field at bottom prompts: "How many yellow balls are there?"
+- A near-full-width text-input field which prompts: "How many yellow balls are there?"
 - A submit button titled "Go!" -- ~50px wide.
 - A button-pair for turning the audio on (blue) or off (red) -- ~80px wide.
 
