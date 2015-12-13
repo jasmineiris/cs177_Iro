@@ -68,11 +68,8 @@ Greg Stephens |||
 
 #### Evan Morrison
 
-- writing and copy-editing
-    - overview
-    - requirements
-    - user characteristics
-    - game objectives
+- functional spec
+- misc writing & copy-editing in other sections
 - git troubleshooting & assistance with more advanced git commands
 - markdown formatting
 
@@ -190,37 +187,50 @@ The 'Play Again' button is white text on blue background for increased contrast.
 
 All algorithms used are predefined, except the one that checks for spelled numbers, which was created by David Wayman.
 
-### User Documentation
+## User Documentation
 
-Splash screen - you can interact with circles or enter the game by pressing ENTER button
+### Home / splash screen
+
+Click the **Enter** button to view game instructions.
 
 ![](screenshots/iro-enter.png)
 
-Instructions:
-1.Count the...
+### Instructions
+
+#### Page 1
+
+Use the mouse to interact with the balls, or wait 2 seconds for the next instruction screen to load automatically.
 
 ![](screenshots/count-the.png)
 
-2.Yellow circles...
+#### Page 2
+
+Use the mouse to interact with the balls, or wait 2 seconds for the game screen to load automatically.
 
 ![](screenshots/yellow-circles.png)
 
-Main game - now you need to count yellow circles before they fade out (5c), there is an option to pop up circles for better view or better count of yellow circles or just for fun. After getting count of circles, you need to enter the result into result fieled by entering the number or spelling the number with letters. Then push GO button to see result. Also there is background music which you can turn on/off by using button to the right of GO button.
+### Main game screen
+
+- Identify the yellow circles and count them before they fade out (5-20 seconds). 
+- Click a circle to remove it from the screen.
+- When you have formulated an answer, enter it in the text field at the bottom of the screen. You may enter your answer as either a number (5) or a word (five).
+- Click "Go!" to submit your answer and view the result.
+- To mute the background music, click the red button at far-bottom-right.
+- To turn the background music on after you have turned it off, click the blue button next to the red button.
 
 ![](screenshots/main-game.png)
 
-Results:
-1.Try again - that's what you see if you get your answer wrong
+### Results / feedback screen
+
+#### Answer is incorrect
 
 ![](screenshots/try-again.png)
 
-2.Correct - that's what you see if you get your answer right
+#### Answer is correct
 
 ![](screenshots/correct.png)
 
-You can exit tha game at any time by closing the browser (pressing X)
-
-### Results of user testing
+## User Research / Testing
 
 For user testing of our game we asked 3 children  to play the game and give us feedback.
 
