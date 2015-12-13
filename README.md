@@ -222,28 +222,50 @@ Use the mouse to interact with the balls, or wait 2 seconds for the game screen 
 
 ### Results / feedback screen
 
-#### Answer is incorrect
+#### If answer is incorrect:
 
 ![](screenshots/try-again.png)
 
-#### Answer is correct
+#### If answer is correct:
 
 ![](screenshots/correct.png)
 
 ## User Research / Testing
 
-For user testing of our game we asked 3 children  to play the game and give us feedback.
+We asked three children to play **Iro** and provide user feedback.
 
-Layden, 5 year old boy:
+**Layden** (5 year old boy)
+
 He does not know how to read yet, so he needed help from his parents to play. He liked colored circles and the ability to play with them (move them around and pop them). Also he liked counting them.
 
-Kailyn, 7 year old girl:
+**Kailyn** (7 year old girl)
+
 She was able to play this game on her own. Liked playing it for first 15 min but then she got bored because it seem repetative, there were no other colors or shapes to count.
 
-Kendal, 11 year old girl:
+**Kendal** (11 year old girl)
+
 She thought this game was too easy to play and needed to be more complex. She would have liked more rounds, different choice of colored circles or shapes to count.
+
+---
 
 We also got feedback from adult users.
 
-This is our first release of the game. After getting user feedback we were unable to make any changes before our release date due to lack of programming knowledge and limited time constraints. In our next release we could take in consideration all suggestions: add different shapes and ask the user to count shapes in different colors. We can let users choose colors they want to work with and add circles and fading time to higher levels. From our feedback we could also change game music with each level played.
-We realized that this version of the game could only be marketed for children ages 4 -7.
+**Aaron** (computer science instructor)
+
+- Default too many circles 
+- Create levels: 
+    - Randomization per circle for each level
+- Graphic style should be the same
+    - making the font and frame look similar goes a long way
+- Fading effect timing should slow down if more circles appear
+- Gravity cluster: incorporate better into the game or add more dimension to the circles using the gravity effect
+
+### Developer thoughts on user testing
+
+We agree with our test users that **Iro** could be made more interesting by adding complexity, in particular:
+
+- Different target colors and shapes for each round of the game.
+- Progression of difficulty levels along with some method of keeping score.
+- Vary the fading time.
+
+Unfortunately we were unable to implement these enhancements due to time constraints and limited Javascript programming skills. That being said, it is an intentionally simple game, and a reasonable "minimum viable product" given the constraints.
