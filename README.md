@@ -154,7 +154,7 @@ The moving circle animation begins fading after 5 seconds and fades completely a
 Background music (Jackson 5) starts on page-load by default, but can be switched off by the user.
 
 #### Result / feedback screen
-When the player submits an answer, a popup-style screen is overlaid on the game screen which provides:
+When the player submits an answer, a popup-style screen is overlaid on the game screen and provides:
 
 - Feedback on the correctness of the player's answer.
 - The actual correct answer.
