@@ -1,7 +1,5 @@
 # Let's Play! - Iro
 
-[hey people! i'm working on this today and will send out the PDF tonight. --Evan, Saturday 12/12]
-
 CS177 Long Project
 
 ### [Link to Live Game](http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html)
