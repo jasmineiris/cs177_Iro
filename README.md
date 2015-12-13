@@ -14,17 +14,17 @@ Preview animation:
 
 | Name | CCSF username | Github username |
 | ---- | ------------- | --------------- |
-Ilmira Andronico | iandroni  | iandroni |
-Christopher Black | cblack1 | ChrisBlack1989 |
-Jasmine Farrell | jfarrel6 | jasmineiris |
-Evan Morrison | emorris7 | evmo |
-Tatyana Polyakova | tpolyako | tatyana12 |
-Robert Mitchell | rmitchel | squeakyheatr |
-David Wayman | dwayman | r3dcrosse |
-|||
-Zack Pierce |||
-Ariel Salazar |||
-Greg Stephens |||
+| Ilmira Andronico | iandroni  | iandroni |
+| Christopher Black | cblack1 | ChrisBlack1989 |
+| Jasmine Farrell | jfarrel6 | jasmineiris |
+| Evan Morrison | emorris7 | evmo |
+| Tatyana Polyakova | tpolyako | tatyana12 |
+| Robert Mitchell | rmitchel | squeakyheatr |
+| David Wayman | dwayman | r3dcrosse |
+||||
+| Greg Stephens |||
+| Zack Pierce |||
+| Ariel Salazar |||
 
 ### Functional Teams
 
@@ -49,8 +49,8 @@ Greg Stephens |||
 
 #### Robert Mitchell
 
-- Modified bubbles file and changed name to bubbles2. 
-- Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition. 
+- Modified bubbles file and changed name to bubbles2.
+- Animated "Count the ... yellow circles" pages in Instruction folder: created fade effect for the pages to transition.
 - Originally change content to instruct the child on how to play the game, later updated by Jasmine and David to reflect new content.
 - Technical specification.
 
@@ -67,11 +67,10 @@ Greg Stephens |||
 #### Evan Morrison
 
 - functional spec
+- user documentation
 - misc writing & copy-editing in other sections
 - git troubleshooting & assistance with more advanced git commands
 - markdown formatting
-
-(in progress)
 
 ## Functional Specification
 
@@ -96,7 +95,7 @@ On the main game screen, circular objects (balls) of different sizes and colors 
 
 - Platform-independent: can be played in any modern web browser at [this link](http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html).
 - Coded in Javascript, HTML, and CSS.
-- Colorful splash/intro screen that provides entry (via clicking) to game instructions. 
+- Colorful splash/intro screen that provides entry (via clicking) to game instructions.
 - Colorful, dynamic game instructions, which transitions automatically after a few seconds to the game.
 - Game screen with balls of different colors and sizes moving in random directions.
 - Balls can be removed by clicking them.
@@ -180,7 +179,7 @@ The 'Play Again' button is white text on blue background for increased contrast.
 **Iro** will be developed in Javascript, CSS, and HTML. It will consist of home screen, instructions, game mode and result screen.
 
 - Sources [Codecademy](http://codecademy.com) for animation of bubbles in Introduction pages.
-- Uses [Bootstrap](http://getbootstrap.com) framework for results pop-up screen, text input, sound buttons (using JQuery), 
+- Uses [Bootstrap](http://getbootstrap.com) framework for results pop-up screen, text input, sound buttons (using JQuery),
 - Uses [D3.js](http://d3js.org) framework for animation of clusters.
 
 All algorithms used are predefined, except the one that checks for spelled numbers, which was created by David Wayman.
@@ -189,7 +188,7 @@ All algorithms used are predefined, except the one that checks for spelled numbe
 
 ### Home / splash screen
 
-Click the **Enter** button to view game instructions.
+Click **Enter** to view game instructions.
 
 ![](screenshots/iro-enter.png)
 
@@ -209,7 +208,7 @@ Use the mouse to interact with the balls, or wait 2 seconds for the game screen 
 
 ### Main game screen
 
-- Identify the yellow circles and count them before they fade out (5-20 seconds). 
+- Identify the yellow circles and count them before they fade out (5-20 seconds).
 - Click a circle to remove it from the screen.
 - When you have formulated an answer, enter it in the text field at the bottom of the screen. You may enter your answer as either a number (5) or a word (five).
 - Click "Go!" to submit your answer and view the result.
@@ -250,8 +249,8 @@ We also got feedback from adult users.
 
 **Aaron** (computer science instructor)
 
-- Default too many circles 
-- Create levels: 
+- Default too many circles
+- Create levels:
     - Randomization per circle for each level
 - Graphic style should be the same
     - making the font and frame look similar goes a long way
