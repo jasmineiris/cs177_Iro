@@ -84,6 +84,19 @@ Greg Stephens |||
 
 **Iro** is browser-based, interactive, educational game for children to learn how to distinguish colors and count objects within a time-limited period.
 
+### User Characteristics
+
+**Iro** is designed to be played by anyone who can:
+
+- See.
+- Read basic English.
+- Count to 21.
+- Use a web browser and basic input devices (mouse and keyboard).
+
+### Game Objectives
+
+On the main game screen, circular objects (balls) of different sizes and colors are floating around in random directions. The objective is to count how many **yellow** balls are shown, and submit the answer in a text field. There is an effective time limit of approximately 20 seconds, at which point the balls are no longer visible.
+
 ### Requirements
 
 - Platform-independent: can be played in any modern web browser at [this link](http://hills.ccsf.edu/~iandroni/cs177_Iro/cluster2/index.html).
@@ -99,19 +112,6 @@ Greg Stephens |||
 - Pop-up box that provides feedback on guess (correct or incorrect).
     + Buttons offering links to play again, or return to game home or game instructions.
 
-### User Characteristics
-
-**Iro** is designed to be played by anyone who can:
-
-- See.
-- Read basic English.
-- Count to 21.
-- Use a web browser and basic input devices (mouse and keyboard).
-
-### Game Objectives
-
-On the main game screen, many circular objects (balls) of different sizes and colors are floating around in random directions. The objective is to count how many **yellow** balls are shown, and submit the answer via text input. There is an effective time limit of approximately 20 seconds, at which point the balls are no longer visible.
-
 ### Non-Goals
 
 "Might-be-nice" game options that we are not implementing at this time:
@@ -123,28 +123,62 @@ On the main game screen, many circular objects (balls) of different sizes and co
 - Rewarding players for *speed* in choosing correct answer.
 - Saving player results across sessions.
 
-### Input
-Primary input will come from user. After counting yellow balls user will have to enter the amount of circles.
+### Screen-by-Screen Specification
 
-### Output
-This software will compare results from a user and a program and will give  the correct answer for a player.
+**Iro** consists of five screens:
 
-### Screen by Screen Specification
+1. Home / splash screen.
+2. Instruction #1.
+3. Instruction #2.
+4. Main game-playing screen.
+5. Result / feedback screen.
 
-“Iro” software will consist of home screen, 2 instructional pages, game mode and result screen
+#### Home / splash screen
+The splash screen (located at the base URL) features the name of the game (**'Iro'**) at top, the word **'Enter'** at bottom, and a colorful, animated arrangement of colored circles occupying the space in the middle.
 
-#### Home screen
-After launching this software splash/intro screen will appear with ENTER button, which will lead  to instructional pages. This page is interactive, user will be able to play or move around the circles.
+The word 'Enter' is a hyperlink to the first instruction page (see below).
 
-#### Instructions/rules
-Users can see insructions of this game on 2 interactive pages. They will be able to interact with words written in dots by moving they kursor.  
+#### Instructions
+- Page 1: The words **'Count the'** are formed by an arrangement of different-colored circles. The circles respond to mouse movements via Javascript animation.
+- Page 2: The words **'Yellow circles**' are formed by an arrangement of yellow circles. Similar to the first page, the circles respond to mouse movements via Javascript animation.
 
-#### Game screen
-This screen will contain different colored circles, result field, where player can enter there count (enter the number or wright it out), and Go button.
-User will have an option to pop circles (then circles will disappear) for easier count.
+#### Main game screen
+The main game screen features a randomly-generated number of circles of different colors and shapes, moving around in randomly-generated directions. At the bottom of the screen is a thin bar containing (left-to-right):
 
-#### Result screen
-User will get a message about result of this game and correct count. This screen will also contain "Home", "Back to instructions" or "Play again" buttons. "Home" button will take user to very first home screen, "Back to instructions" button - to instruction, "Play again" will start over the game.  
+- A near-full-width text-input field at bottom prompts: "How many yellow balls are there?"
+- A submit button titled "Go!" -- ~50px wide.
+- A button-pair for turning the audio on (blue) or off (red) -- ~80px wide.
+
+The moving circle animation begins fading after 5 seconds and fades completely after ~20 seconds.
+
+Background music (Jackson 5) starts on page-load by default, but can be switched off by the user.
+
+#### Result / feedback screen
+When the player submits an answer, a popup-style screen is overlaid on the game screen which provides:
+
+- Feedback on the correctness of the player's answer.
+- The actual correct answer.
+- Links to play again or return to the Home or Instructions pages.
+
+The result screen is black text on a white background. For increased contrast, the game screen underneath fades to a gray background.
+
+If the answer is incorrect, the feedback says:
+
+    Uh Oh! Try again!
+    Good try! There are actually [number] yellow circles.
+
+If the answer is correct, the feedback says:
+
+    CORRECT!
+    Congratulations! You're correct! There are [number] yellow circles!
+
+The link buttons read:
+
+- Home
+- Back To Instructions...
+- Play Again
+
+The 'Play Again' button is white text on blue background for increased contrast.  
 
 ## Technical Specification
 
